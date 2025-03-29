@@ -1,19 +1,12 @@
-# {{NAME}} Working Group
-
-{{
-TEMPLATE: This repository acts as a template for individual Working Groups to start from.
-All information in double curly-braces must be replaced with details for the specific Working Group.
-NOTE: check the issue and pull request templates as well, under `.github` directory.
-
-This is a template repository.
-When starting a new working group, [use this template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to create a new repository in the WG organization.
-}}
+# Event Camera Working Group
 
 This document defines the scope and governance of the Working Group (WG).
 
-{{Mission: The {{NAME}} Working Group's mission is to...}}
+**Mission:** The Event Camera Working Group's mission is to increase adoption of event camera sensors and their use cases in aerial robotic systems using the open source ROS 2 stack. The ECWG leverages embedded hardware such as the
+AMD Kria KV260, AMD Kria KV240, NVIDIA Jetson Orin Nano series, NVIDIA Jetson Orin NX series, and Raspberry Pi 4/5 to test proof-of-concept software leveraging event camera sensors.
 
-{{Scope: the types of topics, tools, libraries, applications, documents, etc, that this working group focuses on. }}
+
+**Scope:** The ECWG scope software focuses on the ROS 2 stack, third-party ROS 2 packages, and the Prophesee Metavision SDK. The primary hardware focus is on widely available embedded arm64 boards to include the Jetson Nano Orin/Orin NX, AMD Kria KV260/KV240, and Raspberry Pi 4/5.
 
 ## Subprojects
 
@@ -24,14 +17,23 @@ Its meetings and membership are largely focused on the direction, design, and wo
 
 The following subprojects are owned by the Working Group:
 
-{{
+*  **Establishing awareness and presence of the ECWG in the wider robotics community**
+    * Description: Establish official OSRF ROS event Camera Working Group and documentation
 
-* template-project
-  * Description: Brief description of project. Remove this item and add new projects using this format.
+* **Event Camera Driver for Nvidia Jetson Orin**
+  * Description: Working on kernel module, DKMS, and the Nvidia camera core development library interface to get an event camera working on the Jetson Orin Nano/Orin NX via MIPI CSI interface
   * Repositories
-    * link-to-repository
+    * [linux-sensor-drivers](https://github.com/TOTON95/linux-sensor-drivers-prophesee)
 
-}}
+* **Metavision SDK Installer Package for AMD Kria development using Petalinux**
+  * Description: Make the petalinux installer and Prophesee petalinux tools repos easier to install
+  *  Respositories:
+     * [metavision-sdk-installer](https://github.com/dirksavage88/metavision-sdk-installer)
+
+*  **Metavision Embedded Markers Example Adapt to ROS 2**
+   * Description: Adapt the existing pose markers example from Prophesee to a ROS 2 package
+    * Repositories:
+      * TODO
 
 ### Standards for subprojects
 
@@ -74,13 +76,13 @@ If the repositories of the subproject are under the WG's GitHub organization, th
 
 ### Meetings
 
-* Regular WG Meeting: {{time schedule for meetings}}
-  * {{when and where will meetings be announced}}
-  * {{what artifacts will be posted after the meetings, e.g. Minutes, Recordings}}
+* Regular WG Meeting: bi-weekly on Wednesday, 0800 UTC
+  * Meetings through Google Meet, coordinated via email
+  * Artifacts updated will include meeting minutes, transcribing of the meeting.
 
 ### Communication Channels
 
-{{How can members communicate with each other? Discourse, Discord, IRC, email list, etc.}}
+Discord, Google Meet
 
 ### Backlog Management
 

@@ -6,7 +6,7 @@ This document defines the scope and governance of the Working Group (WG).
 AMD Kria KV260, AMD Kria KD240, NVIDIA Jetson Orin Nano series, NVIDIA Jetson Orin NX series, and Raspberry Pi 4/5 to test proof-of-concept software leveraging event camera sensors.
 
 
-**Scope:** The ECWG scope software focuses on the ROS 2 stack, third-party ROS 2 packages, and the Prophesee Metavision SDK. The primary hardware focus is on widely available embedded arm64 boards to include the Jetson Nano Orin/Orin NX, AMD Kria KV260/KV240, and Raspberry Pi 4/5.
+**Scope:** The ECWG scope software focuses on the ROS 2 stack, third-party ROS 2 packages, and the Prophesee Metavision SDK. The primary hardware focus is on widely available embedded arm64 boards to include the Jetson Nano Orin/Orin NX, AMD Kria KV260/KD240, and Raspberry Pi 4/5.
 
 ## Subprojects
 

@@ -28,7 +28,7 @@ The following subprojects are owned by the Working Group:
 * **Metavision SDK Installer Package for AMD Kria development using Petalinux**
   * Description: Make the petalinux installer and Prophesee petalinux tools repos easier to install
   *  Respositories:
-     * [metavision-sdk-installer](https://github.com/dirksavage88/metavision-sdk-installer)
+     * [metavision-sdk-installer](https://github.com/Event-Camera-Working-Group-ECWG/metavision-sdk-installer)
 
 *  **Metavision Embedded Markers Example Adapt to ROS 2**
    * Description: Adapt the existing pose markers example from Prophesee to a ROS 2 package

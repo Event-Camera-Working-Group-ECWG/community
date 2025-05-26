@@ -19,26 +19,26 @@ The following subprojects are owned by the Working Group:
 
 *  **Establishing awareness and presence of the ECWG in the wider robotics community**
     * Description: Establish official OSRF ROS event Camera Working Group and documentation
-    * Status: Soft launch TBD
+    * Status: Soft launch TBD 🚧
 
 * **Event Camera Driver for Nvidia Jetson Orin**
   * Description: Working on kernel module, DKMS, and the Nvidia camera core development library interface to get an event camera working on the Jetson Orin Nano/Orin NX via MIPI CSI interface
   * Repositories
     * [linux-sensor-drivers](https://github.com/TOTON95/linux-sensor-drivers-prophesee)
-    * Status: In development
+    * Status: In development 🚧
 
 * **Metavision SDK Installer Package for AMD Kria development using Petalinux**
   * Description: Make the petalinux installer and Prophesee petalinux tools repos easier to install
   *  Respositories:
      * [metavision-sdk-installer](https://github.com/Event-Camera-Working-Group-ECWG/metavision-sdk-installer)
-     * Status: Needs testing on aarch64, builds correctly on x86_64
+     * Status: Needs testing on aarch64, builds correctly on x86_64 📏
 
 *  **Metavision Embedded Markers Example Adapt to ROS 2**
    * Description: Adapt the existing pose markers example from Prophesee to a ROS 2 package
     * Repositories:
       * [metavision-event-markers](https://github.com/Event-Camera-Working-Group-ECWG/metavision-event-markers)
-      * Status: Builds, Needs testing on target hardware (AMD Kria KV260)
-
+      * Status: Builds, Needs testing on target hardware (AMD Kria KV260) 📏
+📏📏
 ### Standards for subprojects
 
 Subprojects must meet the following criteria (and the WG agrees to maintain them upon adoption).

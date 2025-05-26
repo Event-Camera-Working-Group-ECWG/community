@@ -38,7 +38,6 @@ The following subprojects are owned by the Working Group:
     * Repositories:
       * [metavision-event-markers](https://github.com/Event-Camera-Working-Group-ECWG/metavision-event-markers)
       * Status: Builds, Needs testing on target hardware (AMD Kria KV260) 📏
-📏📏
 ### Standards for subprojects
 
 Subprojects must meet the following criteria (and the WG agrees to maintain them upon adoption).

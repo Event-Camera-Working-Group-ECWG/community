@@ -1,8 +1,8 @@
-# Event Camera Working Group
+# Event Camera Community Group
 
-This document defines the scope and governance of the Working Group (WG).
+This document defines the scope and governance of the Community Group (CG).
 
-**Mission:** The Event Camera Working Group's mission is to increase adoption of event camera sensors and their use cases in aerial robotic systems using the open source ROS 2 stack. The ECWG leverages embedded hardware such as the
+**Mission:** The Event Camera Community Group's mission is to increase adoption of event camera sensors and their use cases in aerial robotic systems using the open source ROS 2 stack. The ECWG leverages embedded hardware such as the
 AMD Kria KV260, AMD Kria KD240, NVIDIA Jetson Orin Nano series, NVIDIA Jetson Orin NX series, and Raspberry Pi 4/5 to test proof-of-concept software leveraging event camera sensors.
 
 
@@ -10,15 +10,15 @@ AMD Kria KV260, AMD Kria KD240, NVIDIA Jetson Orin Nano series, NVIDIA Jetson Or
 
 ## Subprojects
 
-This Working Group owns and maintains the following Subprojects.
+This Community Group owns and maintains the following Subprojects.
 Its meetings and membership are largely focused on the direction, design, and work on the projects.
 
 ### Subproject List
 
-The following subprojects are owned by the Working Group:
+The following subprojects are owned by the Community Group:
 
 *  **Establishing awareness and presence of the ECWG in the wider robotics community**
-    * Description: Establish official OSRF ROS event Camera Working Group and documentation
+    * Description: Establish official OSRF ROS event Camera Community Group and documentation
     * Status: Soft launch TBD 🚧
 
 * **Event Camera Driver for Nvidia Jetson Orin**
@@ -30,13 +30,13 @@ The following subprojects are owned by the Working Group:
 * **Metavision SDK Installer Package for AMD Kria development using Petalinux**
   * Description: Make the petalinux installer and Prophesee petalinux tools repos easier to install
   *  Respositories:
-     * [metavision-sdk-installer](https://github.com/Event-Camera-Working-Group-ECWG/metavision-sdk-installer)
+     * [metavision-sdk-installer](https://github.com/Event-Camera-Community-Group-ECWG/metavision-sdk-installer)
      * Status: Needs testing on aarch64, builds correctly on x86_64 📏
 
 *  **Metavision Embedded Markers Example Adapt to ROS 2**
    * Description: Adapt the existing pose markers example from Prophesee to a ROS 2 package
     * Repositories:
-      * [metavision-event-markers](https://github.com/Event-Camera-Working-Group-ECWG/metavision-event-markers)
+      * [metavision-event-markers](https://github.com/Event-Camera-Community-Group-ECWG/metavision-event-markers)
       * Status: Builds, Needs testing on target hardware (AMD Kria KV260) 📏
 ### Standards for subprojects
 
@@ -89,14 +89,14 @@ Discord, Google Meet
 
 ### Backlog Management
 
-{{Is any project management software/site used to track work for this Working Group? How can new members discover the highest impact tasks they could take on? GitHub Projects, ZenHub, etc.}}
+{{Is any project management software/site used to track work for this Community Group? How can new members discover the highest impact tasks they could take on? GitHub Projects, ZenHub, etc.}}
 
 ### Membership, Roles and Organization Management
 
-Working Group members may act in one or more of the following roles:
+Community Group members may act in one or more of the following roles:
 
 * **Member**
-  * Prerequisite: Attend at least one out of the last three Working Group meetings
+  * Prerequisite: Attend at least one out of the last three Community Group meetings
   * Responsible for triaging issues
 * **Reviewer**
   * All reviewers are members
@@ -106,15 +106,15 @@ Working Group members may act in one or more of the following roles:
   * All approvers are reviewers
   * Prerequisite: Proven track record of high-quality contributions and reviews to WG Subprojects
   * Responsible for approving and merging pull requests
-  * Responsible for vetting and accepting new projects into the Working Group
+  * Responsible for vetting and accepting new projects into the Community Group
 * **Lead**
   * TSC member or their delegate
-  * Responsible for organizing and moderating working group meetings
+  * Responsible for organizing and moderating Community group meetings
   * Responsible for posting meeting materials (minutes, recordings, etc.)
   * Responsible for breaking ties
 
 To become a member or change role, create an issue in this repository using the appropriate issue template.
-Such applications are accepted upon unanimous agreement from Approvers, and are typically based on the applicant's history with the subprojects of the Working Group.
+Such applications are accepted upon unanimous agreement from Approvers, and are typically based on the applicant's history with the subprojects of the Community Group.
 The Lead role cannot be applied for, as it is an appointee of the ROS 2 TSC.
 
 ### Modifying this governance document

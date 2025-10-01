@@ -31,7 +31,7 @@ The following subprojects are owned by the Community Group:
   * Description: Make the petalinux installer and Prophesee petalinux tools repos easier to install
   *  Respositories:
      * [metavision-sdk-installer](https://github.com/Event-Camera-Community-Group-ECWG/metavision-sdk-installer)
-     * Status: Needs testing on aarch64, builds correctly on x86_64 📏
+     * Status: In development 🚧 (Need CI/CD and integration into docker image)
 
 *  **Metavision Embedded Markers Example Adapt to ROS 2**
    * Description: Adapt the existing pose markers example from Prophesee to a ROS 2 package
@@ -39,9 +39,13 @@ The following subprojects are owned by the Community Group:
       * [metavision-event-markers](https://github.com/Event-Camera-Community-Group-ECWG/metavision-event-markers)
       * Status: Builds, Needs testing on target hardware (AMD Kria KV260) 📏
 
+*  **Evaluation of Existing Simulation Tooling**
+   * Description: Look into existing simulation tooling for event sensors (gazebo, isaac sim, etc)
+    * Status: 🚧
+
 *  **Non-profit Exploratory/Market research into Event perception product fit**
    * Description: Look into non-profit status and research event perception solution 
-    * Status: 🚧
+    * Status: On hold ❌ 
 
 ### Standards for subprojects
 
